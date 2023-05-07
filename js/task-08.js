@@ -7,6 +7,7 @@ function onLogin(event) {
   } = event.currentTarget;
   if (email.value === "" || password.value === "") {
     alert("не всіполя заповнені");
+    return;
   } else {
     const inputResult = { email: email.value, password: password.value };
     console.log(inputResult);
