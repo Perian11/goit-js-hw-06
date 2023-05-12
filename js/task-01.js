@@ -8,3 +8,4 @@ categoriesLiItem.forEach(category => {
 })
 
 
+// console.log
